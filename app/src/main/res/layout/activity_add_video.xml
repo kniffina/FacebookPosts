@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kniffina.android.facebookposts.AddVideo"
+    android:background="@color/light_grey"
+    android:weightSum="14"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/add_video_new_video_create"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/add_video_from_camera"
+        style="@style/add_video_buttons"
+
+        />
+
+    <Button
+        android:id="@+id/take_video_with_phone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/take_video_and_share"
+        style="@style/add_video_buttons"
+
+        />
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/share_video_to_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        style="@style/add_photo_buttons"
+        android:text="@string/share_video_to_facebook"
+        android:background="@color/red_orange"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/share_video_back_share"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/dark_grey"
+            android:text="@string/back_create_post"
+            style="@style/create_buttons"
+            />
+
+        <Button
+            android:id="@+id/share_video_back_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/dark_grey"
+            android:text="@string/back_main_menu"
+            style="@style/create_buttons"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

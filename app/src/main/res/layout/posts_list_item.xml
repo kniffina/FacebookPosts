@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="@color/light_grey"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="20"
+        >
+
+        <TextView
+            android:id="@+id/id_for_given_post"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            />
+
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            style="@style/post_list_date"
+            android:text="@string/post_created_date"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/message_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            style="@style/post_list_item"
+            android:text=""
+            android:gravity="center_vertical"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

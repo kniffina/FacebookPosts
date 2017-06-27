@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="@color/light_grey"
+    >
+
+    <EditText
+        android:id="@+id/paste_url_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:text="@string/paste_url"
+        android:textAlignment="center"
+        android:gravity="bottom"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/share_url_post_to_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/ocean_blue"
+        android:layout_margin="4dp"
+        android:text="@string/share_url"
+        android:textColor="@color/white_text"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/share_url_back_to_share"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/dark_grey"
+            android:text="@string/back_create_post"
+            style="@style/create_buttons"
+            />
+
+        <Button
+            android:id="@+id/share_url_back_to_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/dark_grey"
+            android:text="@string/back_main_menu"
+            style="@style/create_buttons"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

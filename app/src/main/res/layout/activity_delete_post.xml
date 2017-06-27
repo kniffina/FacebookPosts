@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kniffina.android.facebookposts.DeletePost"
+    android:weightSum="7"
+    android:orientation="vertical"
+    >
+
+    <ListView
+        android:id="@+id/delete_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/delete_back_to_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/CreateEditDeleteButton"
+        android:text="@string/back_main_menu"
+        android:layout_margin="3dp"
+        />
+
+
+</LinearLayout>

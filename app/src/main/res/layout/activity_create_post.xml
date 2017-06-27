@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kniffina.android.facebookposts.CreatePost"
+    android:orientation="vertical"
+    android:weightSum="11"
+    android:background="@color/light_grey"
+    >
+
+
+
+    <Button
+        android:id="@+id/create_share_timeline_photo"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        style="@style/create_buttons"
+        android:text="@string/add_photo"
+        />
+
+
+
+    <Button
+        android:id="@+id/create_share_timeline_url"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:text="@string/create_share_url"
+        android:background="@color/ocean_blue"
+        android:textColor="@color/white_text"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_margin="4dp"
+        />
+    <Button
+        android:id="@+id/create_share_video_timeline"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:text="@string/share_video_to_timeline"
+        android:background="@color/bright_purple"
+        android:textColor="@color/white_text"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_margin="4dp"
+        />
+    <Button
+        android:id="@+id/create_back_main_menu_button"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        style="@style/normal_buttons"
+        android:layout_margin="2dp"
+        android:text="@string/back_main_menu"
+
+        />
+
+</LinearLayout>

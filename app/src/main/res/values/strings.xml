@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Quick Posts</string>
+    <string name="facebook_app_id">264678743939429</string>
+    <string name="fb_login_protocol_scheme">fb264678743939429</string>
+
+    <string name="main_menu_title">Main Menu: Share a URL or Photo to your timeline, Edit a timeline post, or Delete a timeline post on your Facebook account</string>
+
+    <string name="fb_login_string">Login to your Facebook, or continue with your account logged in directly to the Facebook app. Note: some of the features will be inaccessible if you do not have the native Facebook app downloaded.</string>
+    <string name="create_feed">Share something to your timeline</string>
+    <string name="edit_feed">Edit an existing post</string>
+    <string name="delete_feed">Delete a post</string>
+
+    <string name="post_new_feed">Share something to your timeline</string>
+    <string name="back_main_menu">Back to main menu</string>
+
+    <!--create view strings in create post-->
+    <string name="create_url_tolink">Paste a URL to be linked</string>
+    <string name="create_message">Your message to post on  your Facebook timeline</string>
+    <string name="create_hashtags">Hashtag anything you want</string>
+    <string name="create_tag_friends">Friends you want to tag</string>
+    <string name="add_photo">Share a photo to your timeline</string>
+    <string name="fb_share">Share to your Facebook</string>
+    <string name="create_share_url">Share a url to your timeline</string>
+
+    <string name="back_create_post">Back to Share choices</string>
+    <string name="share_url">Share this URL to your Facebook</string>
+    <string name="paste_url">Paste your URL here</string>
+    <string name="add_photo_from_phone">Share a photo that is from your phone</string>
+    <string name="add_photo_from_camera">Take a new photo with your camera</string>
+    <string name="take_photo_and_share">Take a photo from your phone and share it</string>
+    <string name="share_photo_to_facebook">Share the photo on your Facebook</string>
+    <string name="back_to_photo_options">Back to photo options</string>
+    <string name="post_created_date">Created Date: </string>
+
+    <string name="add_video_from_camera">Create a NEW video and share it</string>
+    <string name="take_video_and_share">Grab a video from your phone and share it</string>
+    <string name="share_video_to_facebook">Share the video on your Facebook</string>
+    <string name="share_video_to_timeline">Share a video to your timeline</string>
+
+</resources>
