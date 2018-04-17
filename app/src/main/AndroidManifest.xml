@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kniffina.android.facebookposts">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!--<uses-permission android:name="android.permission.RECORD_AUDIO" />-->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -25,13 +25,21 @@
             </intent-filter>
         </activity>
 
+        <!--<meta-data android:name="com.facebook.sdk.ApplicationId"-->
+            <!--android:value="@string/facebook_app_id"/>-->
+
+        <!--<activity android:name="com.facebook.FacebookActivity"-->
+            <!--android:configChanges=-->
+                <!--"keyboard|keyboardHidden|screenLayout|screenSize|orientation"-->
+            <!--android:label="@string/app_name" />-->
+
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
         <provider
-            android:name="com.facebook.FacebookContentProvider"
             android:authorities="com.facebook.app.FacebookContentProvider264678743939429"
+            android:name="com.facebook.FacebookContentProvider"
             android:exported="true" />
 
         <!-- **** MIGHT NEED THIS *** -->
